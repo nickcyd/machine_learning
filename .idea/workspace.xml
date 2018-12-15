@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="219b0e11-b185-4c47-a278-68173a820dc1" name="Default Changelist" comment="第二章内容">
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch02/EXTRAS/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch02/EXTRAS/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch02/EXTRAS/createDist.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch02/EXTRAS/createDist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch02/EXTRAS/createDist2.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch02/EXTRAS/createDist2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch02/EXTRAS/createFirstPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch02/EXTRAS/createFirstPlot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch02/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch02/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch02/datingTestSet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch02/datingTestSet.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch02/datingTestSet2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch02/datingTestSet2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch03/classifierStorage.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch03/classifierStorage.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch03/lenses.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch03/lenses.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch03/treePlotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch03/treePlotter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch03/trees.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch03/trees.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch04/EXTRAS/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch04/EXTRAS/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch04/EXTRAS/create2Normal.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch04/EXTRAS/create2Normal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch04/EXTRAS/monoDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch04/EXTRAS/monoDemo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch04/bayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch04/bayes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch05/EXTRAS/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch05/EXTRAS/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch05/EXTRAS/plot2D.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch05/EXTRAS/plot2D.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch05/EXTRAS/plotGD.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch05/EXTRAS/plotGD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch05/EXTRAS/plotSDerror.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch05/EXTRAS/plotSDerror.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch05/EXTRAS/sigmoidPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch05/EXTRAS/sigmoidPlot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch05/horseColicTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch05/horseColicTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch05/horseColicTraining.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch05/horseColicTraining.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch05/logRegres.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch05/logRegres.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch05/testSet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch05/testSet.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch06/EXTRAS/notLinSeperable.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch06/EXTRAS/notLinSeperable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch06/EXTRAS/plotRBF.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch06/EXTRAS/plotRBF.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch06/EXTRAS/plotSupportVectors.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch06/EXTRAS/plotSupportVectors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch06/svmMLiA.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch06/svmMLiA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch06/testSet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch06/testSet.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch06/testSetRBF.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch06/testSetRBF.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch06/testSetRBF2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch06/testSetRBF2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch07/EXTRAS/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch07/EXTRAS/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch07/EXTRAS/simpleDataPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch07/EXTRAS/simpleDataPlot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch07/adaboost.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch07/adaboost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch07/horseColicTest2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch07/horseColicTest2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch07/horseColicTraining2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch07/horseColicTraining2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch08/abalone.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch08/abalone.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch08/ex0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch08/ex0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch08/ex1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch08/ex1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch08/regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch08/regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch08/setHtml/lego10030.html" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch08/setHtml/lego10030.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch08/setHtml/lego10179.html" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch08/setHtml/lego10179.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch08/setHtml/lego10181.html" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch08/setHtml/lego10181.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch08/setHtml/lego10189.html" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch08/setHtml/lego10189.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch08/setHtml/lego10196.html" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch08/setHtml/lego10196.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch08/setHtml/lego8288.html" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch08/setHtml/lego8288.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch09/bikeSpeedVsIq_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch09/bikeSpeedVsIq_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch09/bikeSpeedVsIq_train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch09/bikeSpeedVsIq_train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch09/ex0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch09/ex0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch09/ex00.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch09/ex00.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch09/ex2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch09/ex2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch09/ex2test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch09/ex2test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch09/exp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch09/exp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch09/exp2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch09/exp2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch09/expTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch09/expTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch09/regTrees.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch09/regTrees.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch09/sine.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch09/sine.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch09/treeExplore.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch09/treeExplore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch10/kMeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch10/kMeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch10/places.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch10/places.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch10/testSet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch10/testSet.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch10/testSet2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch10/testSet2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch11/apriori.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch11/apriori.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch11/bills20DataSet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch11/bills20DataSet.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch11/lawAssnRules.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch11/lawAssnRules.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch11/meaning20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch11/meaning20.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch11/recent100bills.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch11/recent100bills.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch11/recent20bills.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch11/recent20bills.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch12/fpGrowth.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch12/fpGrowth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch13/extras/createFig1.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch13/extras/createFig1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch13/extras/createFig2.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch13/extras/createFig2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch13/extras/createFig3.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch13/extras/createFig3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch13/extras/createFig4.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch13/extras/createFig4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch13/pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch13/pca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch13/secom.data" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch13/secom.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch13/testSet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch13/testSet.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch13/testSet3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch13/testSet3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch14/0_5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch14/0_5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch14/svdRec.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch14/svdRec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch15/kickStart.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch15/kickStart.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch15/mrMean.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch15/mrMean.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch15/mrMeanMapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch15/mrMeanMapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch15/mrMeanReducer.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch15/mrMeanReducer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch15/mrSVM.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch15/mrSVM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch15/mrSVMkickStart.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch15/mrSVMkickStart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch15/myout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch15/myout.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch15/pegasos.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch15/pegasos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch15/proximalSVM.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch15/proximalSVM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch15/svmDat2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch15/svmDat2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch15/svmDat26" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch15/svmDat26" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch15/svmDat27" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch15/svmDat27" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch15/svmData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch15/svmData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch15/testSet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch15/testSet.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_in_action/Ch15/testSet200.txt" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_in_action/Ch15/testSet200.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第二章/dating_test_set.txt" beforeDir="false" afterPath="$PROJECT_DIR$/第二章/dating_test_set.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/machine_learning$kNN__1_.coverage" NAME="kNN (1) Coverage Results" MODIFIED="1544798904037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machine_learning_in_action/Ch02" />
+    <SUITE FILE_PATH="coverage/machine_learning$kNN.coverage" NAME="kNN Coverage Results" MODIFIED="1544858026426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章/code" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1617020402">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="4" />
+          <entry key="matplotlibrc" value="1" />
+          <entry key="md" value="6" />
+          <entry key="png" value="1" />
+          <entry key="py" value="16" />
+          <entry key="txt" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="1" />
+          <entry key="Markdown" value="6" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Python" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="gitignore" value="53" />
+          <entry key="matplotlibrc" value="15" />
+          <entry key="md" value="68" />
+          <entry key="py" value="4962" />
+          <entry key="txt" value="44" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Markdown" value="68" />
+          <entry key="PLAIN_TEXT" value="112" />
+          <entry key="Python" value="4962" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第二章/code/kNN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="255" lean-forward="true" selection-end-line="269" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+                <marker date="1544858026000" expanded="true" signature="1895:5269" ph="..." />
+                <marker date="1544858026000" expanded="true" signature="7088:7736" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第二章/dating_test_set.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>font.family</find>
+      <find>axes.uni</find>
+      <find>font famil</find>
+      <find>font fa</find>
+      <find>font</find>
+      <find>错误</find>
+      <find>tile</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/第二章/code/kNN.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/第一章/机器学习基础.md" />
+        <option value="$PROJECT_DIR$/第二章/dating_test_set.txt" />
+        <option value="$PROJECT_DIR$/machine_learning_in_action/Ch02/kNN.py" />
+        <option value="$USER_HOME$/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/matplotlibrc" />
+        <option value="$PROJECT_DIR$/第二章/code/kNN.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Angular</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="machine_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machine_learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="machine_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machine_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="第二章" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="machine_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machine_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="第二章" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="machine_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="machine_learning" sdk-home="/usr/local/bin/python3.7">
+        <option name="mySdkHome" value="/usr/local/bin/python3.7" />
+        <option name="myModuleName" value="machine_learning" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/第二章" />
+      <recent name="$PROJECT_DIR$/第二章/code" />
+      <recent name="$PROJECT_DIR$/第二章/、" />
+      <recent name="$PROJECT_DIR$/第一章" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/第二章" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.kNN">
+    <configuration name="kNN (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="machine_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/machine_learning_in_action/Ch02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/machine_learning_in_action/Ch02/kNN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="kNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="machine_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第二章/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第二章/code/kNN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.kNN" />
+      <item itemvalue="Python.kNN (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.kNN" />
+        <item itemvalue="Python.kNN (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="219b0e11-b185-4c47-a278-68173a820dc1" name="Default Changelist" comment="" />
+      <created>1544792533815</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544792533815</updated>
+    </task>
+    <task id="LOCAL-00001" summary="第一章内容">
+      <created>1544794094442</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544794094442</updated>
+    </task>
+    <task id="LOCAL-00002" summary="第一章内容新增blog、git 地址">
+      <created>1544795108421</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544795108421</updated>
+    </task>
+    <task id="LOCAL-00003" summary="第二章内容">
+      <created>1544859414857</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544859414857</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2267525" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24927954" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4116095" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298153" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.3298153" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" visible="true" weight="0.3298153" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3298153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" x="0" y="45" width="1440" height="851" id="SciView" order="3" type="WINDOWED" weight="0.3299712" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.45677233" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24927954" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298153" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26912928" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298153" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.3298153" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" weight="0.3298153" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3298153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" x="0" y="45" width="1440" height="851" id="SciView" order="3" type="WINDOWED" weight="0.3299712" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/机器学习实战（源代码）" />
+      <path value="$PROJECT_DIR$/机器学习实战" />
+      <path value="$PROJECT_DIR$/machine learning in action" />
+      <path value="$PROJECT_DIR$/machine_learning_in_actio" />
+    </ignored-roots>
+    <MESSAGE value="第一章内容" />
+    <MESSAGE value="第一章内容新增blog、git 地址" />
+    <MESSAGE value="第二章内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二章内容" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="63">
+            <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二章/k-近邻算法.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="5271">
+            <caret line="251" column="4" lean-forward="true" selection-start-line="251" selection-start-column="4" selection-end-line="251" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二章/kNN 镜头次数.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第一章/机器学习基础.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="435">
+            <caret line="199" lean-forward="true" selection-start-line="199" selection-end-line="199" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1107529870/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2213">
+          <caret line="339" column="4" selection-start-line="339" selection-start-column="4" selection-end-line="339" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine_learning_in_action/Ch02/README.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine_learning_in_action/Ch02/testSet.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine_learning_in_action/Ch02/EXTRAS/createDist.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine_learning_in_action/Ch02/EXTRAS/createDist2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine_learning_in_action/Ch02/EXTRAS/createFirstPlot.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine_learning_in_action/Ch02/kNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/matplotlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/matplotlibrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2776">
+          <caret line="322" column="27" selection-start-line="322" selection-start-column="27" selection-end-line="322" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/matplotlib/font_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="1240" selection-start-line="1240" selection-end-line="1240" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/matplotlib/axes/_axes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3469">
+          <caret line="308" column="8" selection-start-line="308" selection-start-column="8" selection-end-line="308" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="2706" column="31" selection-start-line="2706" selection-start-column="31" selection-end-line="2706" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二章/code/kNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="255" lean-forward="true" selection-end-line="269" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1544858026000" expanded="true" signature="1895:5269" ph="..." />
+            <marker date="1544858026000" expanded="true" signature="7088:7736" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二章/dating_test_set.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
