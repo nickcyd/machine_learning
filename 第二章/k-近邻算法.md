@@ -1,13 +1,17 @@
+[TOC]
+
 # K-近邻算法
 
-博客园地址：[https://www.cnblogs.com/chenyoude/](https://www.cnblogs.com/chenyoude/)
+## 博客园地址：[https://www.cnblogs.com/chenyoude/](https://www.cnblogs.com/chenyoude/)
 
-git 地址：[https://github.com/nickcyd/machine_learning](
+## git 地址：[https://github.com/nickcyd/machine_learning](https://github.com/nickcyd/machine_learning)
 
-* k-近邻分类算法
-* 从文本文件中解析和导入数据
-* 使用 Matplotlib 创建扩散图
-* 归一化数值
+**代码中涉及的数学公式可以自己下载 Typora 这款软件后，把内容复制到.md文件内通过 Typora 打开**
+
+* k-近邻分类算法概述
+* 使用 k-近邻算法改进约会网站的配对效果
+* 手写识别系统
+* 总结
 
 不知道有没有喜欢看电影的同学，今天我们先不讲我们的 k-近邻算法，我们来讲讲电影。
 
@@ -35,7 +39,7 @@ k-近邻算法（kNN）工作原理：
 
 ​	图2-1 使用打斗和接吻镜头数分类
 
-![kNN 镜头次数](/Users/mac/Desktop/kNN 镜头次数.png)
+![kNN 镜头次数](/Users/mac/Desktop/machine_learning/第二章/kNN 镜头次数.png)
 
 通过图2-1我们能很清晰的看到每个电影纯在多少个打斗镜头和接吻镜头。
 
@@ -109,7 +113,7 @@ def create_data_set():
 
 ​	图2-2 k-近邻算法\_带有四个数据点的简单例子
 
-![k-近邻算法_带有4个数据点的简单例子](/Users/mac/Desktop/k-近邻算法_带有4个数据点的简单例子.png)
+![k-近邻算法_带有4个数据点的简单例子](/Users/mac/Desktop/machine_learning/第二章/k-近邻算法_带有4个数据点的简单例子.png)
 
 数据准备好了，下面就是我们的动手时间了。
 
@@ -1122,7 +1126,66 @@ if __name__ == '__main__':
 
 ## 手写识别系统
 
-debugging……
+现在让我们手动构造一个简单的手写识别系统，该系统只能识别数字$0-9$。
+
+以下是我们使用 k-近邻算法实现手写识别系统需要的步骤：
+
+```python
+1. 收集数据：提供文本文件
+2. 准备数据：编写函数 calssify()，将图像格式转换为分类器使用的 list 格式
+3. 分析数据：检查数据确保它符合要求
+4. 训练算法：此步骤不适用于 k-近邻算法
+5. 测试算法：使用测试样本测试
+6. 使用算法：构建一个完整的应用程序
+
+```
+
+### 准备数据
+
+在 digits 文件夹内有两个子目录：目录 traininigDigits 中大约有2000个例子，每个例子的内容如图2-5所示，么个数字大约有200个样本；目录 testDigits 中包含了了大约900个测试数据，并且两组数据没有重叠。
+
+​	图2-5 数字0的文本图
+
+![数字0的文本图](/Users/mac/Desktop/machine_learning/第二章/数字0的文本图.jpg)
+
+为了使用前面约会例子的分类器，我们把图像格式处理为一个向量。*图像在计算机上是由一个一个像素点组成的。*我们可以把本例中32\*32的二进制图像矩阵转换为1\*1024的向量。
+
+下面我就来实现一个 img2vector 函数，将图像转换为向量。
+
+```python
+# kNN.py
+
+def img2vector(filename):
+    # 构造一个一行有1024个元素的矩阵
+    return_vect = zeros((1, 1024))
+
+    with open(filename, 'r', encoding='utf-8') as fr:
+        # 读取文件的每一行的所有元素
+        for i in range(32):
+            line_str = fr.readline()
+            # 把文件每一行的所有元素按照顺序写入构造的1*1024的零矩阵
+            for j in range(32):
+                return_vect[0, 32 * i + j] = int(line_str[j])
+                
+        return return_vect
+    
+```
+
+### 测试算法
+
+我们已经可以把单个图像的文本文件格式转化为分类器可以识别的格式了，我们接下来的工作就是要把我们现有的数据输入到分类器，检查分类器的执行效果了。因此我们来构造一个 hand_writing_class_test 方法来实现该功能。
+
+```python
+# kNN.py
+
+
+```
+
+
+
+## 总结
+
+d-bug…...
 
 
 

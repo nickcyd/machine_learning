@@ -80,7 +80,7 @@ def file2matrix(filename):
     with open(filename, 'r', encoding='utf-8') as fr:
         # 获取文件的行数
         array_0_lines = fr.readlines()  # type:list
-        number_of_lines = len(array_0_lines)
+        number_of_lines = array_0_lines.__len__()
 
         # 创建以零填充的的 NumPy 矩阵，并将矩阵的另一维度设置为固定值3
         return_mat = zeros((number_of_lines, 3))  # 创建一个1000行3列的0零矩阵
@@ -222,7 +222,7 @@ def dating_class_test():
     # the total error rate is: 0.08
 
 
-def main():
+def matplotlib_run():
     import os
 
     group, labels = create_data_set()
@@ -237,7 +237,7 @@ def main():
     diagram_type = 2, 比较特征(1, 2);
     diagram_type = 3, 比较特征(0, 2)
     '''
-    # scatter_diagram(dating_data_mat, dating_labels, diagram_type=1)
+    scatter_diagram(dating_data_mat, dating_labels, diagram_type=2)
 
     auto_norm(dating_data_mat)
 
@@ -248,8 +248,8 @@ def classify_person():
     result_list = ['讨厌', '有点喜欢', '非常喜欢']
 
     ff_miles = float(input("每年的出行公里数(km)？例如：1000\n"))
-    percent_tats = float(input("每年玩游戏的时间占比(.%)？例如：10\n"))
-    ice_cream = float(input("每年消费多少零食(kg)？例如：1\n"))
+    percent_tats = float(input("每日玩游戏的时间占比(.%)？例如：10\n"))
+    ice_cream = float(input("每周消费多少零食(kg)？例如：1\n"))
 
     filename = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'dating_test_set.txt')
     dating_data_mat, dating_labels = file2matrix(filename)
@@ -263,7 +263,64 @@ def classify_person():
     print("你可能对他/她的印象：\n{}".format(result_list[classifier_result - 1]))
 
 
+def img2vector(filename):
+    # 构造一个一行有1024个元素的矩阵
+    return_vect = zeros((1, 1024))
+
+    with open(filename, 'r', encoding='utf-8') as fr:
+        # 读取文件的每一行的所有元素
+        for i in range(32):
+            line_str = fr.readline()
+            # 把文件每一行的所有元素按照顺序写入构造的1*1024的零矩阵
+            for j in range(32):
+                return_vect[0, 32 * i + j] = int(line_str[j])
+
+        return return_vect
+
+
+def hand_writing_class_test():
+    import os
+
+    training_digits_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'digits/trainingDigits')
+    test_digits_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'digits/testDigits')
+
+    hw_labels = []
+    training_file_list = os.listdir(training_digits_path)  # type:list
+    m = training_file_list.__len__()
+    training_mat = zeros((m, 1024))
+
+    for i in range(m):
+        file_name_str = training_file_list[i]  # type:str
+        file_str = file_name_str.split('.')[0]
+        class_num_str = int(file_str.split('_')[0])
+        hw_labels.append(class_num_str)
+        training_mat[i, :] = img2vector('trainingDigits/{}'.format(file_name_str))
+
+    test_file_list = os.listdir(test_digits_path)
+    error_count = 0
+    m_test = test_file_list.__len__()
+
+    for i in range(m_test):
+        file_name_str = test_file_list[i]
+        file_str = file_name_str.split('.')[0]
+        class_num_str = int(file_str.split('.')[0])
+        vector_under_test = img2vector('testDigits/{}'.format(file_name_str))
+        classifier_result = classify0(vector_under_test, training_mat, hw_labels, 3)
+
+        if classifier_result != class_num_str: error_count += 1
+
+    print("the total error rate is: {}".format(error_count / float(m_test)))
+
+
+def hand_writing_run():
+    import os
+
+    test_digits_0_13_filename = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'digits/testDigits/0_13.txt')
+    return_vect = img2vector(test_digits_0_13_filename)
+
+
 if __name__ == '__main__':
-    main()
-    dating_class_test()
-    classify_person()
+    # matplotlib_run()
+    # dating_class_test()
+    # classify_person()
+    hand_writing_run()

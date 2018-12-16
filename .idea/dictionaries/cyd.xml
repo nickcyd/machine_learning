@@ -6,9 +6,11 @@
       <w>fontproperties</w>
       <w>ilabel</w>
       <w>indicies</w>
+      <w>matplotlib</w>
       <w>readlines</w>
       <w>vals</w>
       <w>vecs</w>
+      <w>vect</w>
       <w>xlabel</w>
       <w>ylabel</w>
     </words>
