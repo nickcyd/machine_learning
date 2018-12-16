@@ -264,14 +264,14 @@ def classify_person():
 
 
 def img2vector(filename):
-    # 构造一个一行有1024个元素的矩阵
+    # 构造一个一行有1024个元素的即 1*1024 的矩阵
     return_vect = zeros((1, 1024))
 
     with open(filename, 'r', encoding='utf-8') as fr:
         # 读取文件的每一行的所有元素
         for i in range(32):
             line_str = fr.readline()
-            # 把文件每一行的所有元素按照顺序写入构造的1*1024的零矩阵
+            # 把文件每一行的所有元素按照顺序写入构造的 1*1024 的零矩阵
             for j in range(32):
                 return_vect[0, 32 * i + j] = int(line_str[j])
 
@@ -281,46 +281,145 @@ def img2vector(filename):
 def hand_writing_class_test():
     import os
 
+    # 获取训练集和测试集数据的根路径
     training_digits_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'digits/trainingDigits')
     test_digits_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'digits/testDigits')
 
+    # 对训练集数据做处理，构造一个 m*1024 的矩阵，m 是训练集数据的个数
     hw_labels = []
     training_file_list = os.listdir(training_digits_path)  # type:list
     m = training_file_list.__len__()
     training_mat = zeros((m, 1024))
 
+    # 对训练集中的单个数据做处理
     for i in range(m):
+        # 取出文件中包含的数字
         file_name_str = training_file_list[i]  # type:str
         file_str = file_name_str.split('.')[0]
         class_num_str = int(file_str.split('_')[0])
+        # 添加标记
         hw_labels.append(class_num_str)
-        training_mat[i, :] = img2vector('trainingDigits/{}'.format(file_name_str))
+        # 把该文件中的所有元素构造成 1*1024 的矩阵后存入之前构造的 m*1024 的矩阵中对应的行
+        training_mat[i, :] = img2vector(os.path.join(training_digits_path, file_name_str))
 
+    # 对测试集数据做处理，构造一个 m*1024 的矩阵，m 是测试集数据的个数
     test_file_list = os.listdir(test_digits_path)
     error_count = 0
     m_test = test_file_list.__len__()
 
+    # 对测试集中的单个数据做处理
     for i in range(m_test):
+        # 取出文件中包含的数字
         file_name_str = test_file_list[i]
         file_str = file_name_str.split('.')[0]
-        class_num_str = int(file_str.split('.')[0])
-        vector_under_test = img2vector('testDigits/{}'.format(file_name_str))
+        class_num_str = int(file_str.split('_')[0])
+
+        # 把该文件中的所有元素构造成一个 1*1024 的矩阵
+        vector_under_test = img2vector(os.path.join(test_digits_path, file_name_str))
+
+        # 对刚刚构造的 1*1024 的矩阵进行分类处理判断结果
         classifier_result = classify0(vector_under_test, training_mat, hw_labels, 3)
 
+        # 对判断错误的计数加 1
         if classifier_result != class_num_str: error_count += 1
 
-    print("the total error rate is: {}".format(error_count / float(m_test)))
+    print("错误率: {}".format(error_count / float(m_test)))
 
 
 def hand_writing_run():
     import os
 
     test_digits_0_13_filename = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'digits/testDigits/0_13.txt')
-    return_vect = img2vector(test_digits_0_13_filename)
+    img2vector(test_digits_0_13_filename)
+    hand_writing_class_test()
+
+
+def img_binaryzation(img_filename):
+    import os
+    import numpy as np
+    from PIL import Image
+    import pylab
+
+    # 修改图片的路径
+    img_filename = os.path.join(os.path.dirname(os.path.dirname(__file__)), img_filename)
+
+    # 调整图片的大小为 32*32px
+    img = Image.open(img_filename)
+    out = img.resize((32, 32), Image.ANTIALIAS)
+    out.save(img_filename)
+
+    # RGB 转为二值化图
+    img = Image.open(img_filename)
+    lim = img.convert('1')
+    lim.save(img_filename)
+
+    img = Image.open(img_filename)
+
+    # 将图像转化为数组并将像素转换到0-1之间
+    img_ndarray = np.asarray(img, dtype='float64') / 256
+
+    # 将图像的矩阵形式转化成一位数组保存到 data 中
+    data = np.ndarray.flatten(img_ndarray)
+
+    # 将一维数组转化成矩阵
+    a_matrix = np.array(data).reshape(32, 32)
+
+    # 将矩阵保存到 txt 文件中转化为二进制0，1存储
+    img_filename_list = img_filename.split('.')  # type:list
+    img_filename_list[-1] = 'jpg'
+    txt_filename = '.'.join(img_filename_list)
+    pylab.savetxt(txt_filename, a_matrix, fmt="%.0f", delimiter='')
+
+    # 把 .txt 文件中的0和1调换
+    with open(txt_filename, 'r') as fr:
+        data = fr.read()
+        data = data.replace('1', '2')
+        data = data.replace('0', '1')
+        data = data.replace('2', '0')
+
+        with open(txt_filename, 'w') as fw:
+            fw.write(data)
+
+    return txt_filename
+
+
+def hand_writing_test(img_filename):
+    txt_filename = img_binaryzation(img_filename)
+    import os
+
+    # 获取训练集和测试集数据的根路径
+    training_digits_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'digits/trainingDigits')
+
+    # 对训练集数据做处理，构造一个 m*1024 的矩阵，m 是训练集数据的个数
+    hw_labels = []
+    training_file_list = os.listdir(training_digits_path)  # type:list
+    m = training_file_list.__len__()
+    training_mat = zeros((m, 1024))
+
+    # 对训练集中的单个数据做处理
+    for i in range(m):
+        # 取出文件中包含的数字
+        file_name_str = training_file_list[i]  # type:str
+        file_str = file_name_str.split('.')[0]
+        class_num_str = int(file_str.split('_')[0])
+        # 添加标记
+        hw_labels.append(class_num_str)
+        # 把该文件中的所有元素构造成 1*1024 的矩阵后存入之前构造的 m*1024 的矩阵中对应的行
+        training_mat[i, :] = img2vector(os.path.join(training_digits_path, file_name_str))
+
+    # 把该文件中的所有元素构造成一个 1*1024 的矩阵
+    vector_under_test = img2vector(txt_filename)
+
+    # 对刚刚构造的 1*1024 的矩阵进行分类处理判断结果
+    classifier_result = classify0(vector_under_test, training_mat, hw_labels, 3)
+
+    return classifier_result
 
 
 if __name__ == '__main__':
     # matplotlib_run()
     # dating_class_test()
     # classify_person()
-    hand_writing_run()
+    # hand_writing_run()
+    classifier_result = hand_writing_test(img_filename='2.jpg')
+    print(classifier_result)
