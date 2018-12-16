@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="219b0e11-b185-4c47-a278-68173a820dc1" name="Default Changelist" comment="第二章内容">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/cyd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/cyd.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source" beforeDir="false" afterPath="$PROJECT_DIR$/source" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第二章/code/kNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/第二章/code/kNN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第二章/k-近邻算法.md" beforeDir="false" afterPath="$PROJECT_DIR$/第二章/k-近邻算法.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,13 +21,13 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="8" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -72,7 +68,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -121,8 +117,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="24" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="873" />
   </component>
@@ -148,6 +144,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,24 +154,12 @@
             </path>
             <path>
               <item name="machine_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machine_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="第二章" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="machine_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machine_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="第二章" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="machine_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544859414857</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="第二章内容">
+      <created>1544943880312</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544943880312</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -345,9 +337,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1440" height="873" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.105150215" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10658083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24927954" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -535,34 +527,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/55.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/555.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5L.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5_0.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/55.jpg" />
+    <entry file="file://$PROJECT_DIR$/555.jpg" />
+    <entry file="file://$PROJECT_DIR$/5L.jpg" />
+    <entry file="file://$PROJECT_DIR$/5_0.txt" />
     <entry file="file://$PROJECT_DIR$/第二章/digits/trainingDigits/0_0.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/51.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5_old.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第二章/code/5.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/51.jpg" />
+    <entry file="file://$PROJECT_DIR$/5_old.txt" />
+    <entry file="file://$PROJECT_DIR$/第二章/code/5.txt" />
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/PIL/Image.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
@@ -570,12 +544,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第二章/code/5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第二章/5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/第二章/code/5.jpg" />
+    <entry file="file://$PROJECT_DIR$/第二章/5.jpg" />
     <entry file="file://$PROJECT_DIR$/第二章/dating_test_set.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -583,27 +553,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第二章/33.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/33.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第二章/3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第二章/new.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第二章/code/33.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第二章/timg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/第二章/33.jpg" />
+    <entry file="file://$PROJECT_DIR$/33.jpg" />
+    <entry file="file://$PROJECT_DIR$/第二章/3.jpg" />
+    <entry file="file://$PROJECT_DIR$/第二章/new.jpg" />
+    <entry file="file://$PROJECT_DIR$/new.jpg" />
+    <entry file="file://$PROJECT_DIR$/第二章/code/33.jpg" />
+    <entry file="file://$PROJECT_DIR$/第二章/timg.jpg" />
     <entry file="file://$PROJECT_DIR$/第二章/code/kNN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
