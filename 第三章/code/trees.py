@@ -205,7 +205,8 @@ def store_grab_tree_run():
     from 第三章.code.tree_plotter import retrieve_tree
     my_tree = retrieve_tree(0)
 
-    classifier_storage_filename = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'classifierStorage.txt')
+    classifier_storage_filename = os.path.join(os.path.dirname(os.path.dirname(__file__)),
+                                               'data-set/classifierStorage.txt')
 
     store_tree(my_tree, classifier_storage_filename)
     my_tree = grab_tree(classifier_storage_filename)
@@ -216,7 +217,7 @@ def store_grab_tree_run():
 def create_lenses_tree():
     import os
 
-    lenses_filename = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'lenses.txt')
+    lenses_filename = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data-set/lenses.txt')
     with open(lenses_filename, 'rt', encoding='utf-8') as fr:
         lenses = [inst.strip().split('\t') for inst in fr.readlines()]
         lenses_labels = ['age', 'prescript', 'astigmatic', 'tearRate']
