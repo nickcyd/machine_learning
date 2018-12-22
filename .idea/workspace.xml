@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="219b0e11-b185-4c47-a278-68173a820dc1" name="Default Changelist" comment="第二章内容">
+    <list default="true" id="219b0e11-b185-4c47-a278-68173a820dc1" name="Default Changelist" comment="修改第二章内容">
+      <change afterPath="$PROJECT_DIR$/chinese_font.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第三章/code/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/cyd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/cyd.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source" beforeDir="false" afterPath="$PROJECT_DIR$/source" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第二章/k-近邻算法.md" beforeDir="false" afterPath="$PROJECT_DIR$/第二章/k-近邻算法.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第二章/kNN 镜头次数.png" beforeDir="false" afterPath="$PROJECT_DIR$/第二章/kNN 镜头次数.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +18,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/machine_learning$kNN__1_.coverage" NAME="kNN (1) Coverage Results" MODIFIED="1544798904037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machine_learning_in_action/Ch02" />
+    <SUITE FILE_PATH="coverage/machine_learning$tree_plotter.coverage" NAME="tree_plotter Coverage Results" MODIFIED="1545226217926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第三章/code" />
+    <SUITE FILE_PATH="coverage/machine_learning$trees.coverage" NAME="trees Coverage Results" MODIFIED="1545448189864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第三章/code" />
     <SUITE FILE_PATH="coverage/machine_learning$tests.coverage" NAME="tests Coverage Results" MODIFIED="1544941101068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/machine_learning$kNN.coverage" NAME="kNN Coverage Results" MODIFIED="1544942361140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章/code" />
   </component>
@@ -20,55 +27,83 @@
     <session id="-1617020402">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitignore" value="8" />
-          <entry key="jpg" value="33" />
+          <entry key="gitignore" value="16" />
+          <entry key="jpg" value="35" />
           <entry key="matplotlibrc" value="1" />
-          <entry key="md" value="8" />
+          <entry key="md" value="11" />
           <entry key="png" value="1" />
-          <entry key="py" value="24" />
-          <entry key="txt" value="27" />
+          <entry key="py" value="35" />
+          <entry key="txt" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="34" />
-          <entry key="Markdown" value="8" />
-          <entry key="PLAIN_TEXT" value="36" />
-          <entry key="Python" value="24" />
+          <entry key="Image" value="36" />
+          <entry key="Markdown" value="11" />
+          <entry key="PLAIN_TEXT" value="47" />
+          <entry key="Python" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gitignore" value="88" />
+          <entry key="dummy" value="12" />
+          <entry key="gitignore" value="113" />
           <entry key="matplotlibrc" value="15" />
           <entry key="md" value="68" />
-          <entry key="py" value="10216" />
-          <entry key="txt" value="44" />
+          <entry key="py" value="19068" />
+          <entry key="txt" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="68" />
-          <entry key="PLAIN_TEXT" value="147" />
-          <entry key="Python" value="10216" />
+          <entry key="PLAIN_TEXT" value="193" />
+          <entry key="Python" value="19068" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第三章/code/trees.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="242" lean-forward="true" selection-start-line="201" selection-end-line="242" />
+              <folding>
+                <marker date="1545400633000" expanded="true" signature="67:72" ph="..." />
+                <marker date="1545400633000" expanded="true" signature="606:611" ph="..." />
+                <marker date="1545400633000" expanded="true" signature="4221:6224" ph="..." />
+                <marker date="1545400633000" expanded="true" signature="5304:6224" ph="..." />
+                <marker date="1545400633000" expanded="true" signature="6101:6224" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -83,10 +118,10 @@
       <find>axes.uni</find>
       <find>font famil</find>
       <find>font fa</find>
-      <find>font</find>
       <find>错误</find>
       <find>tile</find>
       <find>len</find>
+      <find>font</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -104,10 +139,15 @@
         <option value="$PROJECT_DIR$/第二章/dating_test_set.txt" />
         <option value="$PROJECT_DIR$/machine_learning_in_action/Ch02/kNN.py" />
         <option value="$USER_HOME$/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/matplotlibrc" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/5.txt" />
         <option value="$PROJECT_DIR$/第二章/code/kNN.py" />
         <option value="$PROJECT_DIR$/tests.py" />
+        <option value="$PROJECT_DIR$/第三章/code/__init__.py" />
+        <option value="$PROJECT_DIR$/Matplotlib配置中文字体.py" />
+        <option value="$PROJECT_DIR$/chinese_font.py" />
+        <option value="$PROJECT_DIR$/第三章/code/tree_plotter.py" />
+        <option value="$PROJECT_DIR$/第三章/code/trees.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -117,9 +157,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="591" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="900" />
     <option name="height" value="873" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -141,10 +182,10 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <sortByType ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,17 +193,15 @@
               <item name="machine_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="machine_learning" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="machine_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="s&#9;FILE&#9;file:///Users/mac/Desktop/machine_learning/source/Ch07/EXTRAS/simpleDataPlot.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -181,16 +220,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/第三章" />
       <recent name="$PROJECT_DIR$/第二章/code" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/第二章" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/第三章" />
       <recent name="$PROJECT_DIR$/第二章" />
       <recent name="$PROJECT_DIR$/第二章/digits" />
       <recent name="$PROJECT_DIR$/第二章/code" />
       <recent name="$PROJECT_DIR$/第二章/、" />
-      <recent name="$PROJECT_DIR$/第一章" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -205,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.kNN">
+  <component name="RunManager" selected="Python.trees">
     <configuration name="kNN (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="machine_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -272,13 +312,61 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tree_plotter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="machine_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第三章/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第三章/code/tree_plotter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="trees" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="machine_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第三章/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第三章/code/trees.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.kNN" />
       <item itemvalue="Python.kNN (1)" />
       <item itemvalue="Python.tests" />
+      <item itemvalue="Python.trees" />
+      <item itemvalue="Python.tree_plotter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.trees" />
+        <item itemvalue="Python.tree_plotter" />
         <item itemvalue="Python.kNN" />
         <item itemvalue="Python.tests" />
         <item itemvalue="Python.kNN (1)" />
@@ -324,7 +412,21 @@
       <option name="project" value="LOCAL" />
       <updated>1544943880312</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="第二章内容">
+      <created>1544945037404</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1544945037404</updated>
+    </task>
+    <task id="LOCAL-00006" summary="修改第二章内容">
+      <created>1544945266188</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1544945266188</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -339,36 +441,13 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10658083" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24927954" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3298153" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27308708" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298153" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.3298153" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" weight="0.3298153" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3298153" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="0" y="45" width="1440" height="851" id="SciView" order="3" weight="0.3299712" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.105150215" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0937053" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24927954" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298153" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27308708" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3878628" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298153" />
@@ -381,7 +460,30 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="0" y="45" width="1440" height="851" id="SciView" order="3" weight="0.3299712" />
+      <window_info anchor="right" x="0" y="45" width="1440" height="851" id="SciView" order="3" type="WINDOWED" weight="0.32983682" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15268065" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24927954" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298153" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27308708" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3878628" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298153" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.3298153" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" weight="0.3298153" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3298153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" x="0" y="45" width="1440" height="851" id="SciView" order="3" type="WINDOWED" weight="0.32983682" />
       <window_info anchor="right" id="Database" order="4" />
     </layout-to-restore>
   </component>
@@ -403,32 +505,10 @@
     <MESSAGE value="第一章内容" />
     <MESSAGE value="第一章内容新增blog、git 地址" />
     <MESSAGE value="第二章内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="第二章内容" />
+    <MESSAGE value="修改第二章内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改第二章内容" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第二章/k-近邻算法.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="5271">
-            <caret line="251" column="4" lean-forward="true" selection-start-line="251" selection-start-column="4" selection-end-line="251" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第二章/kNN 镜头次数.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第一章/机器学习基础.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="435">
-            <caret line="199" lean-forward="true" selection-start-line="199" selection-end-line="199" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1107529870/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2213">
@@ -484,13 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="2706" column="31" selection-start-line="2706" selection-start-column="31" selection-end-line="2706" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第二章/digits/testDigits/0_13.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -498,13 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -560,20 +626,113 @@
     <entry file="file://$PROJECT_DIR$/new.jpg" />
     <entry file="file://$PROJECT_DIR$/第二章/code/33.jpg" />
     <entry file="file://$PROJECT_DIR$/第二章/timg.jpg" />
-    <entry file="file://$PROJECT_DIR$/第二章/code/kNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="385" column="21" selection-start-line="385" selection-start-column="4" selection-end-line="385" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1341">
           <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二章/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章/code/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第一章/机器学习基础.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2824">
+            <caret line="184" column="18" selection-end-line="207" selection-end-column="97" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章/决策树.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Ch07/EXTRAS/simpleDataPlot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="2707" column="4" selection-start-line="2707" selection-start-column="4" selection-end-line="2707" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二章/code/kNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="174" selection-start-line="174" selection-end-line="175" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chinese_font.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章/classifierStorage.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章/lenses.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章/code/tree_plotter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2513">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1545400443000" expanded="true" signature="295:299" ph="..." />
+            <marker date="1545400443000" expanded="true" signature="591:596" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三章/code/trees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="242" lean-forward="true" selection-start-line="201" selection-end-line="242" />
+          <folding>
+            <marker date="1545400633000" expanded="true" signature="67:72" ph="..." />
+            <marker date="1545400633000" expanded="true" signature="606:611" ph="..." />
+            <marker date="1545400633000" expanded="true" signature="4221:6224" ph="..." />
+            <marker date="1545400633000" expanded="true" signature="5304:6224" ph="..." />
+            <marker date="1545400633000" expanded="true" signature="6101:6224" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
         </state>
       </provider>
     </entry>
