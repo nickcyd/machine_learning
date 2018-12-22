@@ -202,7 +202,7 @@ def dating_class_test():
     ho_ratio = 0.20
 
     # 读取文本数据
-    filename = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'dating_test_set.txt')
+    filename = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data-set/dating_test_set.txt')
     dating_data_mat, dating_labels = file2matrix(filename)
 
     # 对数据归一化特征值处理
@@ -228,7 +228,7 @@ def matplotlib_run():
     group, labels = create_data_set()
     classify0([0, 0], group, labels, 3)
 
-    filename = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'dating_test_set.txt')
+    filename = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data-set/dating_test_set.txt')
     dating_data_mat, dating_labels = file2matrix(filename)
 
     # 需要画图演示开启
@@ -251,7 +251,7 @@ def classify_person():
     percent_tats = float(input("每日玩游戏的时间占比(.%)？例如：10\n"))
     ice_cream = float(input("每周消费多少零食(kg)？例如：1\n"))
 
-    filename = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'dating_test_set.txt')
+    filename = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data-set/dating_test_set.txt')
     dating_data_mat, dating_labels = file2matrix(filename)
 
     norm_mat, ranges, min_vals = auto_norm(dating_data_mat)
@@ -282,8 +282,8 @@ def hand_writing_class_test():
     import os
 
     # 获取训练集和测试集数据的根路径
-    training_digits_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'digits/trainingDigits')
-    test_digits_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'digits/testDigits')
+    training_digits_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data-set/digits/trainingDigits')
+    test_digits_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data-set/digits/testDigits')
 
     # 对训练集数据做处理，构造一个 m*1024 的矩阵，m 是训练集数据的个数
     hw_labels = []
@@ -329,7 +329,7 @@ def hand_writing_class_test():
 def hand_writing_run():
     import os
 
-    test_digits_0_13_filename = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'digits/testDigits/0_13.txt')
+    test_digits_0_13_filename = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data-set/digits/testDigits/0_13.txt')
     img2vector(test_digits_0_13_filename)
     hand_writing_class_test()
 
@@ -388,7 +388,7 @@ def hand_writing_test(img_filename):
     import os
 
     # 获取训练集和测试集数据的根路径
-    training_digits_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'digits/trainingDigits')
+    training_digits_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data-set/digits/trainingDigits')
 
     # 对训练集数据做处理，构造一个 m*1024 的矩阵，m 是训练集数据的个数
     hw_labels = []
@@ -421,5 +421,8 @@ if __name__ == '__main__':
     # dating_class_test()
     # classify_person()
     # hand_writing_run()
-    classifier_result = hand_writing_test(img_filename='2.jpg')
+    classifier_result = hand_writing_test(img_filename='img/2.jpg')
     print(classifier_result)
+
+filename = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data-set/dating_test_set.txt')
+print(filename)

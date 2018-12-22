@@ -39,7 +39,7 @@ k-近邻算法（kNN）工作原理：
 
 ​	图2-1 使用打斗和接吻镜头数分类
 
-![kNN 镜头次数](/Users/mac/Desktop/machine_learning/第二章/kNN 镜头次数.png)
+![kNN 镜头次数](/Users/mac/Desktop/machine_learning/第二章/img/kNN 镜头次数.png)
 
 通过图2-1我们能很清晰的看到每个电影纯在多少个打斗镜头和接吻镜头。
 
@@ -113,7 +113,7 @@ def create_data_set():
 
 ​	图2-2 k-近邻算法\_带有四个数据点的简单例子
 
-![k-近邻算法_带有4个数据点的简单例子](/Users/mac/Desktop/machine_learning/第二章/k-近邻算法_带有4个数据点的简单例子.png)
+![k-近邻算法_带有4个数据点的简单例子](/Users/mac/Desktop/machine_learning/第二章/img/k-近邻算法_带有4个数据点的简单例子.png)
 
 数据准备好了，下面就是我们的动手时间了。
 
@@ -529,7 +529,7 @@ if __name__ == '__main__':
 
 ​	图2-3 玩视频游戏和每年飞行里程数特征比较
 
-![玩视频游戏和每年飞行里程数特征比较](/Users/mac/Desktop/machine_learning/第二章/玩视频游戏和每年飞行里程数特征比较.jpg)
+![玩视频游戏和每年飞行里程数特征比较](/Users/mac/Desktop/machine_learning/第二章/img/玩视频游戏和每年飞行里程数特征比较.jpg)
 
 ### 准备数据：归一化数值
 
@@ -1118,7 +1118,7 @@ if __name__ == '__main__':
 
 ​	图2-4 约会-终
 
-![约会(终)](/Users/mac/Desktop/machine_learning/第二章/约会(终).jpg)
+![约会(终)](/Users/mac/Desktop/machine_learning/第二章/img/约会(终).jpg)
 
 从图2-4中可以看出我们通过输入特征值得到了小程序给我们预测的结果，算是一个小小的结束。我们也实现了我们的第一个算法，我可以很自信的告诉你，你可以把这个小程序让约会网站的产品经理部署了。
 
@@ -1146,7 +1146,7 @@ if __name__ == '__main__':
 
 ​	图2-5 数字0的文本图
 
-![数字0的文本图](/Users/mac/Desktop/machine_learning/第二章/数字0的文本图.jpg)
+![数字0的文本图](/Users/mac/Desktop/machine_learning/第二章/img/数字0的文本图.jpg)
 
 为了使用前面约会例子的分类器，我们把图像格式处理为一个向量。*图像在计算机上是由一个一个像素点组成的。*我们可以把本例中32\*32的二进制图像矩阵转换为1\*1024的向量。
 
