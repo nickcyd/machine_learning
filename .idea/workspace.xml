@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="219b0e11-b185-4c47-a278-68173a820dc1" name="Default Changelist" comment="修改第二章内容">
-      <change afterPath="$PROJECT_DIR$/chinese_font.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三章/code/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/cyd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/cyd.xml" afterDir="false" />
+    <list default="true" id="219b0e11-b185-4c47-a278-68173a820dc1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第二章/k-近邻算法.md" beforeDir="false" afterPath="$PROJECT_DIR$/第二章/k-近邻算法.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第二章/kNN 镜头次数.png" beforeDir="false" afterPath="$PROJECT_DIR$/第二章/kNN 镜头次数.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第三章/code/tree_plotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/第三章/code/tree_plotter.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +40,7 @@
           <entry key="matplotlibrc" value="1" />
           <entry key="md" value="11" />
           <entry key="png" value="1" />
-          <entry key="py" value="35" />
+          <entry key="py" value="36" />
           <entry key="txt" value="30" />
         </counts>
       </usages-collector>
@@ -54,7 +49,7 @@
           <entry key="Image" value="36" />
           <entry key="Markdown" value="11" />
           <entry key="PLAIN_TEXT" value="47" />
-          <entry key="Python" value="35" />
+          <entry key="Python" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -63,7 +58,7 @@
           <entry key="gitignore" value="113" />
           <entry key="matplotlibrc" value="15" />
           <entry key="md" value="68" />
-          <entry key="py" value="19068" />
+          <entry key="py" value="19070" />
           <entry key="txt" value="53" />
         </counts>
       </usages-collector>
@@ -71,18 +66,32 @@
         <counts>
           <entry key="Markdown" value="68" />
           <entry key="PLAIN_TEXT" value="193" />
-          <entry key="Python" value="19068" />
+          <entry key="Python" value="19070" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第三章/code/tree_plotter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="172" column="5" selection-start-line="172" selection-start-column="5" selection-end-line="172" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+                <marker date="1545449773000" expanded="true" signature="295:299" ph="..." />
+                <marker date="1545449773000" expanded="true" signature="591:596" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/第三章/code/trees.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="242" lean-forward="true" selection-start-line="201" selection-end-line="242" />
+            <state relative-caret-position="210">
+              <caret line="230" column="38" lean-forward="true" selection-start-line="230" selection-start-column="38" selection-end-line="230" selection-end-column="38" />
               <folding>
                 <marker date="1545400633000" expanded="true" signature="67:72" ph="..." />
                 <marker date="1545400633000" expanded="true" signature="606:611" ph="..." />
@@ -90,15 +99,6 @@
                 <marker date="1545400633000" expanded="true" signature="5304:6224" ph="..." />
                 <marker date="1545400633000" expanded="true" signature="6101:6224" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -145,9 +145,9 @@
         <option value="$PROJECT_DIR$/第三章/code/__init__.py" />
         <option value="$PROJECT_DIR$/Matplotlib配置中文字体.py" />
         <option value="$PROJECT_DIR$/chinese_font.py" />
-        <option value="$PROJECT_DIR$/第三章/code/tree_plotter.py" />
         <option value="$PROJECT_DIR$/第三章/code/trees.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/第三章/code/tree_plotter.py" />
       </list>
     </option>
   </component>
@@ -157,10 +157,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="591" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="900" />
+    <option name="width" value="1440" />
     <option name="height" value="873" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -192,6 +191,17 @@
             <path>
               <item name="machine_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="machine_learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="machine_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machine_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="第三章" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="machine_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machine_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="第三章" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -426,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544945266188</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="修改第二章内容">
+      <created>1545449222655</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1545449222656</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -439,7 +456,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0937053" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24927954" />
@@ -703,22 +721,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第三章/code/tree_plotter.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2513">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <marker date="1545400443000" expanded="true" signature="295:299" ph="..." />
-            <marker date="1545400443000" expanded="true" signature="591:596" ph="..." />
-          </folding>
+        <state relative-caret-position="168">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/第三章/code/trees.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="242" lean-forward="true" selection-start-line="201" selection-end-line="242" />
+        <state relative-caret-position="210">
+          <caret line="230" column="38" lean-forward="true" selection-start-line="230" selection-start-column="38" selection-end-line="230" selection-end-column="38" />
           <folding>
             <marker date="1545400633000" expanded="true" signature="67:72" ph="..." />
             <marker date="1545400633000" expanded="true" signature="606:611" ph="..." />
@@ -729,10 +742,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/第三章/code/tree_plotter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="413">
+          <caret line="172" column="5" selection-start-line="172" selection-start-column="5" selection-end-line="172" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1545449773000" expanded="true" signature="295:299" ph="..." />
+            <marker date="1545449773000" expanded="true" signature="591:596" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
